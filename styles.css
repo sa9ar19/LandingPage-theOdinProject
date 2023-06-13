@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 550px;
+    background-color: #1f2937;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    font-size: 50px;
+    color: #fff;
+}
+.nav-items > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+
+li {
+    list-style: none;
+    font-size: 30px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.header-container {
+    width: 75%;
+    height: 280px;
+    margin: 80px auto;
+    display: flex;
+
+}
+.header-container div {
+    flex: 1;
+}
+.info {
+    height: 100%;
+}
+.info h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+.info p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+.info button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    height: 40px;
+    width: 120px;
+    color: #f9faf8;
+    font-size: 20px;
+    cursor: pointer;
+}
+.image-container {
+    background-color: #7d7e7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-container p {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/* Information Section  */
+#information {
+    background-color: #fff;
+}
+#information h1 {
+    font-size: 36px ;
+    color: #1f2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.info-container {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item {
+    height: 250px;
+    width: 180px;
+}
+.item-box {
+    height: 170px;
+    width: 170px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.item p {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+/* Saying section  */
+#saying {
+    height: 400px;
+    background-color: #e5e7eb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container {
+    position: relative;
+    text-align: left;
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+.author{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+}
+
+#sign-up {
+    background-color: #fff;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-container {
+    background-color: #3882f6;
+    height: 150px;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+.content {
+    color: #fff;
+}
+.content :first-child {
+    font-size: 30px;
+}
+.content :nth-child(2){
+    font-size: 20px;
+}
+.sign-up-container button {
+    height: 40px;
+    width: 150px;
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+#footer p {
+    color: #fff;
+    font-size: 20px;
+}
